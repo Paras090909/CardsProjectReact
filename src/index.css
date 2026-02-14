@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width: 100%;
+  background-color: #212121;
+  color: #1f1717;
+  padding: 10px;
+  gap: 10px;
+}
+.Container{
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #ddd6d6;
+  padding: 10px;
+}
+.Container .upperBody{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+.Container .upperBody .logo{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.Container .upperBody .savebtn{
+  margin: 5px;
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.Container .companyname{
+  font-weight: 500px;
+}
+
+.Container .companyAndTime{
+  margin-top: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+
+}
+.Container .companyAndTime .jobposttime{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.Container .jobPost{
+  font-size: medium;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.Container .positionAndLevel{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 900;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Container .applyBtn{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  align-items: center;
+
+}
+
+.Container .applyBtn .payrate{
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+
+.Container .applyBtn .applybtnT{
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: #111;
+  color: #fff;
+}
+.parent{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
